@@ -1,0 +1,121 @@
+/* font-family: 'Questrial', sans-serif; */
+
+
+body {
+    background-color: black;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+header {
+    text-align: center;
+    margin-top: 50px;
+}
+
+
+p {
+    color: white;
+    font-family: 'Questrial', sans-serif;
+    max-width: 400px;
+    width: auto;
+    font-size: 35px;
+    margin: 70px auto;
+}
+
+.caixa {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 700px;
+    margin: 100px auto;
+    
+}
+
+img {
+    border-radius: 10px;
+
+}
+
+.usuario {
+    width: 160px;
+    height: 160px;
+    margin: 0 15px;
+    justify-content:space-around;
+    align-items: center;
+    transition: 0.1s;
+    border: 1px transparent;
+    border-radius: 7px;
+    object-fit: cover;
+    
+}
+
+.usuario:hover {
+    border: solid 1px white;
+    border-radius: 10px;
+    width: 164px;
+    height: 164px;
+    transition: 0.4s;
+    max-width: 164px;
+    max-height: 164px;
+    
+}
+
+
+.addusuario {
+    width: 160px;
+    height: 160px;
+    padding: 47.5px 47px;
+    margin: 0 15px;
+    background-color: #1e1d20;
+    border-radius: 10px;
+    opacity: 30%;
+    transition: 1s;
+      
+}
+
+.addusuario:hover {
+    opacity: 100%;
+    transition: 1s;
+    border: 1px solid white;
+    
+}
+
+span {
+    display: block;
+    color: white;
+    font-weight: bold;
+    font-family: 'Questrial', sans-serif;
+    margin-top: 20px;
+    opacity: 40%;
+    transition: 1s;
+}
+
+
+.spanadd {
+    display: block;
+    margin-top: 60px;
+    opacity: 100%;
+    transition: 1s;
+}
+
+.botao {
+    font-family: 'Questrial', sans-serif;
+    height: 45px;
+    width: 200px;
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: 1s;
+}
+
+.botao:hover {
+    background-color: white;
+    color: black;
+    transition: 1s;
+    font-weight:bolder;
+}
